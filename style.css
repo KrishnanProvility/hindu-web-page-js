@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-image {
+  display: flex;
+  justify-content: center;
+}
+.nav-image a img {
+  width: 30em;
+}
+.nav-menu{
+  margin: auto;
+}
+.nav-menu li {
+  float: left;
+}
+.nav-container {
+  background-color: rgb(252, 250, 250);
+  display: flex;
+  box-shadow: 0px 5px 5px 1px rgb(73, 72, 72);
+  margin-bottom: 50px;
+}
+.nav-menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px; 
+}
+.nav-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(4, 4, 4);
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.nav-menu a:hover {
+  color: red;
+}
+.nav-bar-icon {
+  fill: black;
+  width: 20px;
+}
+.nav-bar-icon:hover {
+  fill: red;
+}
+.top-news p{
+  padding: 0px 100px 0px 100px;
+}
+.top-new-nav {
+  background-color: rgb(243, 240, 240);
+  text-align: center;
+}
+
+/*-------------slide--------------------*/
+.image-slide {
+    max-width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.image-slide h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(252, 250, 250);
+}
+
+.image-slide-list {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-container {
+    display: flex;
+  
+    gap: 10px;
+}
+
+.mySlides {
+    width: calc(100% / 3); 
+    height: 300px;
+    object-fit: contain; 
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display-left, .display-right {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.display-left:hover, .display-right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.display-left {
+    left: 10px;
+}
+
+.display-right {
+    right: 10px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+/*.............................column.............................*/
+.row {
+  display: flex;
+  justify-content: center; 
+  gap: 5px;
+  max-width: 100%; 
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.column {
+  flex: 1; /* Default size for the side columns */
+  max-width: 32%; 
+  font-size: 25px;
+  padding: 10px;
+  height: 500px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.column.middle {
+  flex: 2; 
+  max-width: 64%;
+}
+
+.column h3 {
+  color: rgb(139, 10, 10);
+  font-weight: bold;
+}
+
+.column h3:hover{
+  text-decoration: underline;
+}
+.column.middle img{
+  width: 100%;
+  height: 60%;
+}
+.column h5:hover{
+  text-decoration: underline;
+}
+.row h5{
+  
+  border-bottom: solid #333;
+}
